@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
 
+// Initialize the Express application
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -20,6 +21,7 @@ app.get('/', (req, res) => {
   res.send('Welcome to CI Pipeline Reporter!');
 });
 
+// Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
