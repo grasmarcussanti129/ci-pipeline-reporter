@@ -21,6 +21,6 @@
     "url": "git+https://github.com/yourusername/ci-pipeline-reporter.git"
   },
   "keywords": ["CI/CD", "reporting", "metrics"],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Your Updated Name <your.updated.email@example.com>",
   "license": "MIT"
 }
